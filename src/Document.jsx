@@ -151,7 +151,7 @@ export default function Document() {
       },
     });
     q.disable(false);
-    q.setText("Loading...");
+    q.setText("Type @ to insert");
     
     setQuill(q);
   }, []);
